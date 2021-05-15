@@ -6,7 +6,8 @@ export default function Sundary() {
 
   return (
       <>
-    <div className="container py-3">
+      <div className="hello">
+    <div className="container py-3 hello">
     <div className="title">
         <h1 className="names">Sundry</h1>
     </div>
@@ -21,6 +22,7 @@ export default function Sundary() {
            img={editorsContent.img}
           />
         ))}
+</div>
 </div>
 </>
   );
